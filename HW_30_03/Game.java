@@ -70,36 +70,3 @@ public class Game {
 
 
 }
-/*
-public class Main {
-    public static void main(String[] args) {
-        ArrayList<Player> players = new ArrayList<>();
-
-        // Заполнение ArrayList'a данными игроков
-        for (int i = 0; i < 20; i++) {
-            League league = League.values()[i / 5]; // Вычисляем лигу по номеру игрока
-            Player player = new Player("Name" + i, "SecondName" + i, 0, 0, league);
-            players.add(player);
-        }
-
-        // Проведение матчей каждого с каждым в рамках одной лиги
-        for (League league : League.values()) {
-            ArrayList<Player> leaguePlayers = getPlayersByLeague(players, league);
-            int size = leaguePlayers.size();
-            for (int i = 0; i < size; i++) {
-                Player player1 = leaguePlayers.get(i);
-                for (int j = i + 1; j < size; j++) {
-                    Player player2 = leaguePlayers.get(j);
-                    playMatch(player1, player2);
-                }
-            }
-        }
-
-        // Вывод результатов игры
-        System.out.println("Результаты игры:");
-        for (Player player : players) {
-            System.out.printf("%s %s, лига %s, счет: %d - %d, баллы: %.1f%n",
-                    player.getName(), player.getSecondName(), player.getLeague(), player.getScore(), player.getSecondScore(), player.getPoints());
-        }
-    }
- */
