@@ -1,4 +1,4 @@
-package Tasks;
+package Tasks.HW_jawa_task;
 
 import java.util.Arrays;
 

@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        int n=22;
+        int n=6;
         List<Employee> employees=Generator.getEmployee(n);
         for (Employee employee : employees) {
             System.out.println(employee);
